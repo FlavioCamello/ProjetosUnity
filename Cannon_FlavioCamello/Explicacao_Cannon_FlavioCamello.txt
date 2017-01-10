@@ -1,0 +1,80 @@
+1-Como executar:
+Para PC: 
+basta abrir a pasta Cannon_FlavioCamello
+e dar dois cliques em CannonLord_FlavioCamello_pc.
+è incado que escolha a resolução 1280 x 600 e selecione Windowed.
+Após isso, clique em Play!
+
+Para Celular:
+Abra a pasta Cannon_FlavioCamello,  
+Pegue o arquivo CannonLord_FlavioCamello.apk, e passe para o celular 
+com sistema operacional Android, pode ser enviado até mesmo por email.
+Clique sobre o arquivo ja no Android, e permita a instalação.
+
+Para um melhor proveito, utilize o celular no modo deitado(horizontal).
+
+2-Como foi organizado o código e projeto e quais os critérios
+ usados pra fazer desta forma
+
+O projeto foi organizado em cinco pastas, que são:
+- Animacao
+- Materiais
+- Particulas
+- Scripts
+- Sprints
+
+O projeto foi organizado dessa maneira, pois acredito que fique 
+mais facil de encontrar os arquivos.
+
+O codigo esta em
+
+-Tiro, responsável pelos movimentos do tiro, possui o metodo colisor
+e gerencia quem deve ser destruido. Além disso é o responsável pelas
+particulas que são utilizadas no jogo.
+
+- Gerenciador do Game (Esta com o nome de GameEngine), possui 
+um Singletonque implementado,é responsável pelos sons, finalizar 
+e comecar o jogo, instanciar os morcegos, e posicionar a barra de 
+vidas de acordo com o tamanho da tela.
+
+- Barra, que contem a movimentacao da barra de vida.
+
+- Canhao, responsável por atirar. Entçao ele instancia o Tiro.
+
+- Gerador de arestas, responsável por gerar os limites da tela com
+quem os tiros se colidem. E ela se adapta mesmo durante os jogos.
+
+-ScriptBat, responsável pelos movimentos do morcego, responsável por
+ subtrair a barra de sangue.
+
+-Texto, responsavel por inicializar o texto e gerenciar os pontos.
+
+
+Depois de feito, nao era bem o formato de como eu queria o codigo. 
+Acho que o controle de pontos poderia ficar no gerenciador do game,
+entre outras mudanças, que por falta de experiencia ainda nao
+peguei a melhor forma de se programar. Porém, achei que ficou bem 
+organizado.
+
+3- 
+-O jogo se adapta a qualquer tipo de tela.
+
+-Codigo Organizado
+
+-Export para Android
+
+-Melhorias Gráficas usando partículas ao matar um morcego, ou o tiro
+bater no extremo da tela.
+3:30 horas
+
+-Melhoria de jogabilidade, com o tiro sendo feito com o clique 
+na tela. Além disso foram adicionados sons ao matar um morcego, 
+e uma musica de fundo. Além disso foi criado uma barra que a cada 
+morcego que chega a base, essa barra é decrementada.
+15:00 horas
+
+- O uso da física foi a colisao entre a bola e as arestas da tela
+e com o morcego. A gravidade foi zerada.
+4:00 horas
+
+    
